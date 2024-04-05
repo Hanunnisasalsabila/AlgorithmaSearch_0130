@@ -11,5 +11,9 @@ void input()
 	{
 		cout << "Enter the number of elemnts in the array: ";
 		cin >> n;
+		if ((n > 0) && (n <= 20))
+			break;
+		else
+			cout << "\nArray should have minimum and maximum 20 elemnts.\n\n";
 	}
 }
