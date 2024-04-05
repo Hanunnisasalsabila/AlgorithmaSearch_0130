@@ -47,6 +47,9 @@ void LinearSearch()
 				cout << "\n" << item << "found at position" << (i + 1) << endl;
 				break;
 			}
+			i++;
 		}
+
+		if (i == n)
 	}
 }
